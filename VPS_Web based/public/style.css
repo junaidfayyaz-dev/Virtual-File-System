@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.box {
+    width: 750px;
+    margin: 30px auto;
+    background: #1e1e1e;
+    color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 2px solid #333;
+}
+
+h1 {
+    color: #00d4ff;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px rgba(0,212,255,0.5);
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.command {
+    margin: 15px 0;
+    padding: 10px;
+    background: #2a2a2a;
+    border-radius: 8px;
+}
+
+input {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background: #333;
+    color: white;
+    width: 200px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00d4ff;
+    box-shadow: 0 0 5px rgba(0,212,255,0.5);
+}
+
+button {
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(238,9,121,0.4);
+}
+
+.terminal {
+    background: #000;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: left;
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 10px;
+    font-family: 'Consolas', monospace;
+    border: 1px solid #444;
+}
+
+.success { 
+    color: #00ff88; 
+    font-weight: bold;
+}
+.error { 
+    color: #ff3c3c; 
+    font-weight: bold;
+}
+.info { 
+    color: #00d4ff; 
+}
+.cmd { 
+    color: #ffff00; 
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.file-list {
+    color: #ff9900;
+}
+.help {
+    color: #aa66ff;
+}

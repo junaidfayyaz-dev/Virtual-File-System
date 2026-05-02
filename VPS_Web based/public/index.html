@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual File System Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+    <h1>🌈 Virtual File System Terminal</h1>
+    <p class="subtitle">Team: Junaid, Rayan, Sarmad, Ahmad, Faseeh</p>
+
+    <button onclick="sendCommand('format')">Format Disk</button>
+    <button onclick="sendCommand('list')">List Files</button>
+    <button onclick="sendCommand('diskusage')">Disk Usage</button>
+    <button onclick="sendCommand('help')">Show Help</button>
+
+    <!-- Create File -->
+    <div class="command">
+        <input id="createName" placeholder="File name for Create">
+        <button onclick="sendCommand('create')">Create File</button>
+    </div>
+
+    <!-- Write File -->
+    <div class="command">
+        <input id="writeName" placeholder="File name for Write">
+        <input id="writeText" placeholder="Text to Write">
+        <button onclick="sendCommand('write')">Write File</button>
+    </div>
+
+    <!-- Read File -->
+    <div class="command">
+        <input id="readName" placeholder="File name for Read">
+        <button onclick="sendCommand('read')">Read File</button>
+    </div>
+
+    <!-- Find File -->
+    <div class="command">
+        <input id="findName" placeholder="File name to Find">
+        <button onclick="sendCommand('find')">Find File</button>
+    </div>
+
+    <!-- Delete File -->
+    <div class="command">
+        <input id="deleteName" placeholder="File name to Delete">
+        <button onclick="sendCommand('delete')">Delete File</button>
+    </div>
+
+    <!-- Rename File -->
+    <div class="command">
+        <input id="renameOld" placeholder="Old file name">
+        <input id="renameNew" placeholder="New file name">
+        <button onclick="sendCommand('rename')">Rename File</button>
+    </div>
+
+    <!-- Controls -->
+    <div class="command">
+        <button onclick="clearTerminal()">Clear Terminal</button>
+        <button onclick="clearAllInputs()">Clear Inputs</button>
+    </div>
+
+    <h3>Terminal Output:</h3>
+    <div id="out" class="terminal"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
