@@ -1,4 +1,4 @@
-# Bridging System Programming & Web Tech  
+ 
 ## Web-Based Virtual File System (VFS)
 
 This project is a Web-Based Virtual File System (VFS) developed as part of our Operating Systems Lab. It combines low-level system programming in C++ with a modern web interface to simulate how file systems actually work behind the scenes.
@@ -57,6 +57,7 @@ The main goal of this project was to understand file system internals by buildin
 - Building a simple full-stack system  
 - Handling real-time input/output  
 
-## Acknowledgement
+## Conclusion
 
-Special thanks to our Lab Instructor **Sir Ali Hafeez Malik** for his guidance and support throughout the project. His insights into operating system concepts helped us design and implement the system effectively.
+- Overall, this project was a good learning experience where we explored file system concepts and successfully connected system-level programming with web technologies.
+
